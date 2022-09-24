@@ -1,0 +1,124 @@
+      .attribution a {
+          color: hsl(228, 45%, 44%);
+      }
+
+      body {
+          font-family: 'Outfit', sans-serif;
+          /* font-size: 18px; */
+          background-color: hsl(217, 54%, 11%);
+      }
+
+      @media (min-width: 375px) {
+          .container {
+              width: 300px;
+              margin: 0 auto 1rem;
+          }
+      }
+
+      .container {
+          color: hsl(0, 0%, 100%);
+          border-radius: 6px;
+          padding: 15px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          background-color: hsl(216, 50%, 16%);
+      }
+
+      p {
+          font-weight: 300;
+          color: hsl(215, 51%, 70%);
+      }
+
+      a {
+          color: white;
+          text-decoration: none;
+      }
+
+      a:hover {
+          color: hsl(178, 100%, 50%);
+      }
+
+
+      .main-img img {
+          position: relative;
+          width: 100%;
+          display: block;
+          border-radius: 5px;
+      }
+
+      #eye {
+          position: absolute;
+          display: block;
+          top: 0;
+          background-color: hsl(178, 100%, 50%, 60%);
+          width: 100%;
+          height: 100%;
+          z-index: 999;
+      }
+
+      button {
+          display: block;
+          margin: auto;
+          position: relative;
+          max-width: 300px;
+          max-height: 300px;
+          padding: 0;
+          border: 0;
+          border-radius: 6px;
+      }
+
+      button::before {
+          content: '';
+
+      }
+
+      .icon {
+          display: block;
+          width: 100%;
+          max-width: 10px;
+          object-fit: contain;
+          margin-right: -4px;
+      }
+
+      .clock {
+          max-width: 15px;
+      }
+
+      #avatar {
+          display: inline-block;
+          max-width: 30px;
+          border: 1px solid white;
+          border-radius: 100px;
+          margin-right: 15px;
+      }
+
+      .space {
+          margin-top: -9px;
+      }
+
+      .teal {
+          color: cyan;
+          margin-right: 95px;
+      }
+
+      .flex-start {
+          display: flex;
+          align-items: center;
+          justify-content: start;
+      }
+
+      .flex {
+          justify-content: space-between;
+          display: flex;
+          align-items: center;
+          border-bottom: 1px solid hsl(215, 51%, 70%);
+      }
+
+      footer {
+          position: fixed;
+          bottom: 5px;
+          left: 0;
+          width: 100%;
+          font-size: 11px;
+          text-align: center;
+          color: hsl(0, 0%, 100%);
+      }
